@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
+.top{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 190px;
+    padding: 20px;
+    border-bottom-left-radius: 0.3cm;
+    border-bottom-right-radius: 0.3cm;
+    z-index: 2;
+}
+
+.top_img{
+    width: 350px;
+    height: 50px;
+    border-right-style: solid;
+    border-color: #dfdede;
+    border-width: 1px;
+}
+
+.top_img1{
+    position: relative;
+    width: 120px;
+    height: 50px;
+    border-right-style: solid;
+    border-color: #dfdede;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top_img2{
+    position: relative;
+    width: 140px;
+    height: 50px;
+    border-right-style: solid;
+    border-color: #dfdede;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top_img3{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-right-style: solid;
+    border-color: #dfdede;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top_img4{
+    position: relative;
+    width: 125px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.button{
+    position: relative;
+    top: 80px;
+    left: 0px;
+    color: black;
+    background-color:#F5F5F5;
+    padding: 25px 80px;
+    font-size: 25px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: #b92804;
+    color: white;
+    font-weight: bold;
+}
+
+
+.header{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background: #f8efec;
+    padding: 130px;
+    margin: 0px;
+    
+}
+
+.head{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    font-size: 50px;
+    font-family: "Trebuchet MS";
+    color: #d3140d;
+}
+
+.sideleft{
+    float: left;
+    margin-left: 20px;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        background-color: #fff;
+    }
+    100% {
+        opacity: 1;
+        background-color:  #fff;
+    }
+}
+.textchange{
+    color:#000000;
+    text-align:left;
+}
+
+.int_content1{
+    float: left;
+    position: absolute;
+    top: 800px;
+    left:-500px;
+    border-color: #f3c6c6;
+    border-style: dashed;
+    padding: 15px;
+    width: 600px;
+    margin-top: 10px;
+    background-color: #fffefe;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;/*只播一次*/
+    
+}
+.int_content2{
+    float: left;
+    position: absolute;
+    top: 1400px;
+    left:380px;
+    border-color: #f3c6c6;
+    border-style: dashed;
+    padding: 15px;
+    width: 600px;
+    margin-top: 10px;
+    background-color: #fffefe;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;/*只播一次*/
+    
+}
+.int_content3{
+    float: left;
+    position: absolute;
+    top: 2100px;
+    left:380px;
+    border-color: #f3c6c6;
+    border-style: dashed;
+    padding: 15px;
+    width: 600px;
+    margin-top: 10px;
+    background-color: #fffefe;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;/*只播一次*/
+    
+}
+.int_content4{
+    float: left;
+    position: absolute;
+    top: 2800px;
+    left:380px;
+    border-color: #f3c6c6;
+    border-style: dashed;
+    padding: 15px;
+    width: 600px;
+    margin-top: 10px;
+    overflow: auto;
+    background-color: #fffefe;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;/*只播一次*/
+    
+}
+
+
+
+
+p{
+    font-size: 20px;
+    text-indent: 1cm;
+    line-height: 1.5cm;
+    color: #636363;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
